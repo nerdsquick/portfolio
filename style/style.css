@@ -1,0 +1,109 @@
+body{
+  background-color:#CDB4DB;
+  font-family: ;
+
+}
+header{
+  height: 30px;
+  backgrouffc8ddnd-color: purple;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+ /* text-decoration: none;
+  color: inherit;*/
+}
+header a{
+    text-decoration: none;
+    color: inherit;
+}
+#logo{
+  margin-left: 30px;
+
+}
+
+header ul{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+}
+
+
+
+#intro{
+  width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+  border: 1px solid red;
+}
+
+#intro figure{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  /*pour pouvoir positionner son enfant au centre*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#intro figure img{
+  width: 100%;
+  object-fit: contain;
+  /* pour que l'image s'adapte a la taille du block */
+}
+
+
+#intro figure figcaption{
+  position: absolute;
+  background-color: purple;
+  padding: 30px;
+  font-size: 3em;
+}
+
+
+#mozprojet{
+  width: 80vw;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 40px;
+}
+
+#mozprojet article{
+  width: 40%;
+  overflow: hidden;
+  border: 1px ;
+  margin-right: 1%;
+  margin-top: 30px;
+}
+#mozprojet article figure{
+  width: 100%;
+}
+
+#mozprojet article figure img{
+  width: 100%;
+}
+
+
+#mozprojet article figure figcaption{
+  text-align: center;
+  padding: 10px;
+}
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 30px;
+}
+
+
+
